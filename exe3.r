@@ -84,7 +84,7 @@ print(paste("Grade result:", message))
 
 cat("\n=== tryCatch (Error Handling / Control Flow) ===\n")
 
-value <- "text"
+value <- 9
 
 result <- tryCatch(
   {
