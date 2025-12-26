@@ -10,7 +10,6 @@ View(df)
 # View the structure of the data
 str(df)
 
-df.head()
-
+# Checking missing values
 colSums(is.na(df))
 
