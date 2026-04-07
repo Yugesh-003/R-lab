@@ -23,7 +23,7 @@ complex_value <- 3 + 4i
 print(complex_value); print(class(complex_value))
 
 # Raw
-raw_value <- charToRaw("R")
+raw_value <- charToRaw("a")
 print(raw_value); print(class(raw_value))
 
 
