@@ -2,7 +2,7 @@
 setwd("C:/Users/Admin/Downloads")
 
 # Read the Dataset
-df <- read.csv("Advertising (1).csv")
+df <- read.csv("Advertising.csv")
 
 # View the data
 View(df)

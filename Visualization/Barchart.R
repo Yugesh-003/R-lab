@@ -7,4 +7,5 @@ View(data)
 #create a bar chart
 counts<-table(data$Region)
 barplot(counts,main="Bar chart of Regional counts of Sales",
-        xlab="Regions",ylab ="Frequency",col="blue",border="black")
+        xlab="Regions",ylab ="Frequency",
+        col="blue",border="black")
