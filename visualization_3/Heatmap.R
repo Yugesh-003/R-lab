@@ -9,4 +9,8 @@ data <- data.frame(
 )
 
 numeric_data <- data[, c("Sales", "Profit", "Expenses", "Customers")]
-heatmap(as.matrix(numeric_data))
+heatmap(as.matrix(numeric_data),
+        scale = "row",    # Normalize by row
+        col = colorRampPalette(c("white", "blue"))(100),  # Color scheme
+        main = "Heatmap of Scores and Attendance")
+
