@@ -8,5 +8,5 @@ data <- data.frame(
   Customers = c(200, 240, 300, 280, 350)
 )
 
-numeric_data <- data[, 2:5]
+numeric_data <- data[, c("Sales", "Profit", "Expenses", "Customers")]
 heatmap(as.matrix(numeric_data))
