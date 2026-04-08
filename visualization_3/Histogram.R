@@ -9,9 +9,9 @@ data <- data.frame(
 )
 
 View(data)
-v_data <- as.vector(as.matrix(data[, 2:5]))
+v_data <- as.vector(as.matrix(data[, c("Sales", "Profit", "Expenses", "Customers")]))
 
-hist(v_data,
+hist(v_data,breaks=10,
      main = "Histogram of Data Values",
      xlab = "Values",
      ylab = "Frequency",
