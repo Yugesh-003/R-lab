@@ -1,12 +1,12 @@
 # BOXPLOT
 # Create dataframe
 data <- data.frame(
-  Years = c(2015, 2016, 2017, 2018, 2019),
-  Sales = c(100, 150, 200, 180, 250),
-  Profit = c(20, 30, 50, 40, 60),
-  Expenses = c(80, 120, 150, 140, 190),
-  Customers = c(200, 240, 300, 280, 350),
-  Region = c("North", "South", "East", "West", "North")
+  Sales = c(36000, 28000, 45000, 52000, 48000, 32000, 25500, 63000, 
+             49000, 47167, 38000, 30000, 50500, 55000, 32000, 39000, 
+             32000, 32000),
+  Region = c("North", "West", "East", "North", "East", "South", 
+             "West", "South", "West", "North", "South", "West", 
+             "South", "North", "West", "North", "North", "North")
 )
 
 # Create a boxplot
