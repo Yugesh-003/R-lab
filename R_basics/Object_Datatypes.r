@@ -35,3 +35,28 @@ fac <- factor(c("Male", "Female", "Male"))
 print(fac)
 print(class(fac))
 fac[3]
+
+# 7. Numeric (double precision floating point)
+num <- 3.14
+print(num)
+print(class(num))
+
+# 8. Integer (whole numbers)
+int <- 42L
+print(int)
+print(class(int))
+
+# 9. Complex (complex numbers)
+comp <- 2 + 3i
+print(comp)
+print(class(comp))
+
+# 10. Character (text strings)
+char <- "Hello R"
+print(char)
+print(class(char))
+
+# 11. Logical (boolean values)
+log <- TRUE
+print(log)
+print(class(log))
